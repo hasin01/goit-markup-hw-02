@@ -4,96 +4,133 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>WebStudio</title>
+     <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <nav>
+      <nav >
         <a class="logo" href="./index.html"> <span class="logo-web">Web</span>Studio</a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="site-nav">
+          <li><a class="link current" href="./index.html">Studio</a></li>
+          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <ul>
-        <address>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <address  class="address-link">
+          <li><a class="address-link-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="address-link-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </address>
       </ul>
-      <section>
-        <h1>Buttons set</h1>
-        <ul class="btn-group">
-          <li><button class="btn" type="button">All</button></li>
-          <li><button class="btn" type="button">Web Site</button></li>
-          <li><button class="btn" type="button">App</button></li>
-          <li><button class="btn" type="button">Design</button></li>
-          <li><button class="btn" type="button">Marketing</button></li>
+    </header>
+    <main>
+      <section class="heading-secrion" >
+        <h1 class="heading-title">Effective Solutions for Your Business</h1>
+        <button class="btn-studio" type="button">Order Service</button>
+      </section>
+      <section class="futures-section">
+        <h2 class="visually-hidden">Futures</h2>
+        <ul class="futures-list">
+          <li class="futures-list-item">
+            <h3 class="section-title">Strategy</h3>
+            <p class="section-paragraph">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li class="futures-list-item">
+            <h3 class="section-title">Punctuality</h3>
+            <p class="section-paragraph">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li class="futures-list-item">
+            <h3 class="section-title">Diligence</h3>
+            <p class="section-paragraph">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li >
+          <li class="futures-list-item">
+            <h3 class="section-title">Technologies</h3>
+            <p class="section-paragraph">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
         </ul>
       </section>
       <section>
-        <h2></h2>
+        <h2 class="headline-work-title">What are we doing</h2>
+        <ul>
+          <li><img src="./images/pc.jpg" alt="pictured pc" width="360" /></li>
+          <li>
+            <img src="./images/tel.jpg" alt="pictured phone" width="360" />
+          </li>
+          <li>
+            <img
+              src="./images/telpc.jpg"
+              alt="pictured phone in pc"
+              width="360"
+            />
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="headline-work-title">Our Team</h2>
         <ul>
           <li>
-            <img src="./images/bankingapp.jpg" alt="" />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <img
+              src="./images/men1.jpg"
+              alt="photo of Mark Guerrero he Product Designer"
+              width="264"
+            />
+            <h3 class="section-title">Mark Guerrero</h3>
+            <p class="section-paragraph">Product Designer</p>
           </li>
           <li>
-            <img src="./images/cashlesspayment.jpg" alt="" />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <img
+              src="./images/men2.jpg"
+              alt="photo tom ford he frontend developer"
+              width="264"
+            />
+            <h3 class="section-title">Tom Ford</h3>
+            <p class="section-paragraph">Frontend Developer</p>
           </li>
           <li>
-            <img src="/images/meditaionapp.jpg" alt="" />
-            <h3>Meditaion App</h3>
-            <p>App</p>
+            <img
+              src="./images/men3.jpg"
+              alt="photo Camila Garcia She Marketing"
+              width="264"
+            />
+            <h3 class="section-title">Camila Garcia</h3>
+            <p class="section-paragraph">Marketing</p>
           </li>
           <li>
-            <img src="./images/taxiservice.jpg" alt="" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="./images/screenillustrations.jpg" alt="" />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
-          </li>
-          <li>
-            <img src="./images/onlinecourses.jpg" alt="" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="./images/instagramstoriesconcept.jpg" alt="" />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
-          </li>
-          <li>
-            <img src="./images/organicfood.jpg" alt="" />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
-          </li>
-          <li>
-            <img src="./images/freshcoffee.jpg  " alt="" />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <img
+              src="./images/woman1.jpg"
+              alt="photo Daniel Wilson he UI Designer"
+              width="264"
+            />
+            <h3 class="section-title">Daniel Wilson</h3>
+            <p class="section-paragraph">UI Designer</p>
           </li>
         </ul>
       </section>
-      <footer>
-      <a href="./index.html"><span>Web</span>Studio</a>
-      <p>
+    </main>
+     <footer class="section-footer">
+      <a class="logo-footer" href="./index.html"
+        ><span class="logo-web">Web</span>Studio</a
+      >
+      <p class="footer-paragraph">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
     </footer>
-    </header>
   </body>
 </html>
