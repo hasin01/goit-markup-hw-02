@@ -72,7 +72,7 @@ body {
 }
 .hero-title {
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.07;
   text-align: center;
 
   color: var(--heading-tittle-color);
